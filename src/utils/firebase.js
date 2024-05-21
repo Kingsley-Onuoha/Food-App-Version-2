@@ -8,13 +8,13 @@ import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDeKZawuFWGIci0NwGomvvFH1cqMIJuFec",
+  apiKey: process.env.FIREBASE_API_KEY,
   authDomain: "swiggy-food-f842d.firebaseapp.com",
   projectId: "swiggy-food-f842d",
   storageBucket: "swiggy-food-f842d.appspot.com",
   messagingSenderId: "746991584727",
   appId: "1:746991584727:web:156d2b02aa5be0c5403792",
-  measurementId: "G-0BHLB8XSE3"
+  measurementId: "G-0BHLB8XSE3",
 };
 
 // Initialize Firebase
